@@ -6,4 +6,4 @@ slackin.default({
   org: process.env.SLACK_SUBDOMAIN,
   interval: 1000,
   silent: false
-}).listen(3000)
+}).listen(process.env.PORT || 3000);
