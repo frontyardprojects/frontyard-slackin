@@ -1,0 +1,15 @@
+{
+  "name": "frontyard-slackin",
+  "version": "1.0.0",
+  "description": "A heroku app for easily connecting people to our slack channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "slackin": "^0.13.0"
+  }
+}
